@@ -1,0 +1,14 @@
+llm:
+  active_provider: azure
+  google:
+    api_key: [redacted]
+    model: "gemini-2.5-pro"
+  azure:
+    api_key: [redacted]
+    endpoint: [redacted]
+    version: "2025-04-01-preview"
+    model: "o3"
+
+chunker:
+  block_max_words: 500
+  soft_limit_ratio: 0.8

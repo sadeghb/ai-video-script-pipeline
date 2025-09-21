@@ -1,0 +1,10 @@
+# requirements.in
+Flask
+awsgi2
+requests
+PyYAML
+pydantic
+langchain
+langchain-core
+langchain-google-genai
+langchain-openai

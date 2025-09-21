@@ -1,0 +1,30 @@
+# Python virtual environment and cache files
+venv/
+__pycache__/
+*.pyc
+
+# Local testing and verification scripts/files
+test_pipeline_server.py
+create_test_input.py
+verify_shorts.py
+sample_input.json
+response_output.json
+
+# Local verification outputs
+verified_shorts/
+
+# Assembler services (only needed for local verification)
+src/services/short_assembler_service.py
+src/services/media_assembler_service.py
+
+# Git files and IDE configuration
+.git
+.gitignore
+.vscode/
+
+# Conda environment files
+conda-meta/
+
+# macOS Specific Junk Files
+.DS_Store
+._*
